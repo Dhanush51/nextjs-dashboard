@@ -5,6 +5,7 @@ import { lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react';
 import { RevenueChartSkeleton,LatestInvoicesSkeleton,CardsSkeleton, } from '@/app/ui/skeletons';
 
+export const revalidate = 0;
  
 export default async function Page() {
   
